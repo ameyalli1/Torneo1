@@ -4851,11 +4851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniela\\Documents\\ITESHU\\SEMESTRE 2\\TRAB_PROGRAMACION\\U5\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\Torneo.COMMON.csproj",
+      "projectUniqueName": "C:\\Users\\Daniela\\Desktop\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\Torneo.COMMON.csproj",
       "projectName": "Torneo.COMMON",
-      "projectPath": "C:\\Users\\Daniela\\Documents\\ITESHU\\SEMESTRE 2\\TRAB_PROGRAMACION\\U5\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\Torneo.COMMON.csproj",
+      "projectPath": "C:\\Users\\Daniela\\Desktop\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\Torneo.COMMON.csproj",
       "packagesPath": "C:\\Users\\Daniela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniela\\Documents\\ITESHU\\SEMESTRE 2\\TRAB_PROGRAMACION\\U5\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\obj\\",
+      "outputPath": "C:\\Users\\Daniela\\Desktop\\PROYECTO U5\\Torneo_Administrador\\Torneo.COMMON\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

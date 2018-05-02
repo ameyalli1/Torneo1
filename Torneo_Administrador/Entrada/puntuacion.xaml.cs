@@ -170,6 +170,18 @@ namespace Entrada
 
         private void btnActualizarTorneo_Click(object sender, RoutedEventArgs e)
         {
+
+            if ((manejadorTorneo.VerificarSiEsNumero(E1.Text)) == true)
+            {
+                MessageBox.Show("Error no se aceptan letras Marcador Equipo 1 ", "Torneo", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            if ((manejadorTorneo.VerificarSiEsNumero(E2.Text)) == true)
+            {
+                MessageBox.Show("Error no se aceptan letras Marcador Equipo 2 ", "Torneo", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             if (accionn == accion.Nuevo)
             {
                 Torneos emp = new Torneos()
@@ -218,6 +230,7 @@ namespace Entrada
 
         private void btnEditarPuntos_Click(object sender, RoutedEventArgs e)
         {
+            
             Torneos emp = dtgPuntuacion.SelectedItem as Torneos;
             if (emp != null)
             {

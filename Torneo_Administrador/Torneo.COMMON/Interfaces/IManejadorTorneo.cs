@@ -7,5 +7,7 @@ namespace Torneo.COMMON.Interfaces
 {
     public interface IManejadorTorneo : IManejadorGenerico<Torneos>
     {
+        bool VerificarSiEsNumero(string telefono);
+        
     }
 }

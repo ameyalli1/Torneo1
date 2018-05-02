@@ -40,5 +40,21 @@ namespace Torneo.BIZ
         {
             return repositorio.Update(entidad);
         }
+
+        public bool VerificarSiEsNumero(string telefono)
+        {
+            foreach (var item in telefono)
+            {
+                if (!(char.IsNumber(item)))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
